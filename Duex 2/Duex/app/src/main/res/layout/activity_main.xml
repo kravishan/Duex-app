@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/all_homeworks"
+                fontPath="fonts/nunito_extra_bold.ttf"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:textSize="28sp"
+                tools:ignore="MissingPrefix" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp">
+
+            <Button
+                android:background="@drawable/baseline_account_circle_24"
+                android:id="@+id/accountSettings"
+
+                android:layout_width="35dp"
+                android:layout_height="35dp"/>
+
+            <Button
+                    android:background="@drawable/baseline_power_settings_new_24"
+                    android:id="@+id/logout"
+                    android:layout_gravity="right"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+<!--            <ImageView-->
+<!--                android:layout_width="300dp"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:id="@+id/noDataImage"-->
+<!--                android:layout_gravity="center"/>-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/homeworkRecycler"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/add_homework"
+            android:drawablePadding="10dp"
+            android:paddingTop="10dp"
+            android:id="@+id/addTask"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:textAlignment="center"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/helpCenter"
+            android:text="Help Center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

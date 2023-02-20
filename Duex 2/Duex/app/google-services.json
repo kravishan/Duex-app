@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "874803219594",
+    "project_id": "duex-fa51b",
+    "storage_bucket": "duex-fa51b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874803219594:android:4cef328288f68dcbb5f173",
+        "android_client_info": {
+          "package_name": "com.example.duex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874803219594-r3olfe8c1hlgccvacg8rskrlvnb8du6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.duex",
+            "certificate_hash": "14c7350f220ab3daf25d197c2a2a69647c2ee559"
+          }
+        },
+        {
+          "client_id": "874803219594-chgmme52tg3p31locah62347eatc0l41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgO2fZ8EH2z3cRDB9RktGkvRbUEBDZMkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874803219594-chgmme52tg3p31locah62347eatc0l41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

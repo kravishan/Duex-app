@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/uImage"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/user"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/uName"
+        android:hint="Display Name"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_update"
+        android:text="Update profile"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="25sp"
+        android:padding="12dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/helpCenter"
+        android:text="Help Center"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
