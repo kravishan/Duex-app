@@ -28,11 +28,12 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 ## Installation
 
-To install the Duex application on your Android device, follow these steps:
+To install this app on your mobile phone, follow these steps:
 
-- Clone the repository: git clone `https://github.com/your-username/duex-android.git`
+- Clone this repository to your local machine
 - Open the project in Android Studio
-- Run the application on an Android device or emulator
+- Connect your mobile phone to your computer and enable USB debugging
+- Click on the "Run" button in Android Studio to install the app on your phone
 
 Contributions are welcome! Please submit a pull request or open an issue if you find any bugs or have suggestions for new features.
 
